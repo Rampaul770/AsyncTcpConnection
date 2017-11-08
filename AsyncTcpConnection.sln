@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETFramework47", "NETFramework47", "{C67CBF0A-BAA5-4370-A59C-9D9DB8CBDC3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETCore", "NETCore", "{5C2C6736-AA5E-463F-8481-610C64D6E177}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETStandard", "NETStandard", "{69876721-DD03-43E6-8A62-765570CEBF13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETFramework462", "NETFramework462", "{41743688-7D1F-4EBA-8D0A-719CC682CC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTcpConnection", "AsyncTcpConnection\AsyncTcpConnection.csproj", "{E66F9CB7-038D-451C-901F-89BFB6F687E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E66F9CB7-038D-451C-901F-89BFB6F687E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66F9CB7-038D-451C-901F-89BFB6F687E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66F9CB7-038D-451C-901F-89BFB6F687E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66F9CB7-038D-451C-901F-89BFB6F687E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E66F9CB7-038D-451C-901F-89BFB6F687E6} = {5C2C6736-AA5E-463F-8481-610C64D6E177}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44BEC1D3-0AED-43EF-99EA-9F8E87C76717}
+	EndGlobalSection
+EndGlobal
